@@ -100,6 +100,8 @@ int main() {
     printf("=== TIC TAC TOE vs COMPUTER ===\n");
     printf("You are X. Computer is O.\n");
     playGame();
+    printf("This is the end of the game.\n");
+    printf("Thank you for playing!\n");
     return 0;
 }
 
