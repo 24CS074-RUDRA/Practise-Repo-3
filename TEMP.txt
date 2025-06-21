@@ -1,5 +1,13 @@
 Hii This is Temporary text
 This is only For practise and it is created by me....
 TEXT:
-Boiler plate code for c langauge
+Boiler plate code for c langauge ::
+
+#include<stdio.h>
+int main()
+{
+    printf("Your code is "Display HERE..);
+
+    return 0;
+}
 
