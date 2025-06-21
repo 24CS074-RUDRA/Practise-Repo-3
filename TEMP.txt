@@ -11,3 +11,44 @@ int main()
     return 0;
 }
 
+write an Basic example with c langauge
+        ##  FINANCE DEPARTMENT CALCULATOR   ##
+
+#include <stdio.h> 
+void main() { 
+    float num1, num2,ans;//ans = Answer 
+    int choice; 
+    printf("Enter first number: "); 
+    scanf("%f", &num1); 
+    printf("Enter second number: "); 
+    scanf("%f", &num2); 
+    printf("Enter your choice TYPE:1 or 2 or 3 or 4"); 
+    scanf("%d",&choice); 
+ 
+    switch (choice) { 
+        case 1: 
+            ans = num1 + num2; 
+            printf("Adition is : %f\n", ans); 
+            break; 
+        case 2: 
+            ans = num1 - num2; 
+            printf("Subtraction is : %f\n", ans); 
+            break; 
+        case 3: 
+            ans = num1 * num2; 
+            printf("Multiplication is : %f\n", ans); 
+            break; 
+        case 4: 
+            if (num2 != 0) { 
+                ans = num1 / num2; 
+                printf("Devidation is : %f\n", ans); 
+            } else { 
+                printf("Error: Division by zero is not allowed.\n"); 
+            } 
+            break; 
+            default: 
+            printf("Enter 1 or 2 or 3 or 4.\n"); 
+            printf("\nThis program is performed by Rudra Patel--ID:-24CS074\n"); 
+ 
+    } 
+}
