@@ -1,0 +1,91 @@
+Hello This is your guide for pushing the repositry in github....
+I will tell you about it...and How to do it??..Let's know that....
+
+#   git init
+
+If you run git init in a folder that’s already a Git repository, it won’t
+overwrite or delete anything. It simply makes sure Git is set up, so your
+existing work stays safe.
+
+#   git add .
+--> Stages all changes (new, modified, deleted files) in the current directory and subdirectories for the
+  next commit.
+--> git add <filename>
+Stages only the specified file for the next commit. Replace <filename> with your actual file name, e.g., 
+git add index.html.
+
+#   git commit -m "Initial commit"
+Commits your staged changes to the repository with a message. Replace "Initial commit" with your own message 
+describing the changes.
+
+#   git branch -M main
+Renames your current branch to 'main'. This is useful if you want your main branch to be called 'main' instead of 
+'master'.
+- IF you do not want to do this,There is no problem...
+-BUT make sure whenever you write your branch name you must write your main branch as a main branch...
+
+#   git remote -v ::
+The git remote -v command lists all remote repositories connected to your local Git repository, showing their 
+names and URLs. The -v stands for "verbose" and displays both fetch and push URLs for each remote. 
+This helps you verify which remote repositories your local repo can interact with.
+Example output:
+origin  https://github.com/username/repo.git (fetch)
+origin  https://github.com/username/repo.git (push)
+--> YOU CAN KEEP NY NAME TO YOUR REMOTE NAME BUT GENERALLY COMMON WORD IS origin...
+
+#   git remote add origin <url>
+Connects your local repository to a remote repository on GitHub. Replace <url> with your actual GitHub 
+repository link.
+
+#   git push origin main :-
+///////////       IN YOUR FIRST COMMIT USE ALWAYS THIS COMMAND       /////////////////////////
+The command git push origin main uploads your local commits from the main branch to the remote repository named 
+origin (usually your GitHub repo).
+
+Detailed Explanation:
+
+git push: This command is used to upload local repository content to a remote repository.
+origin: This is the default name for your remote repository (it could be named differently, but "origin" is standard).
+main: This is the branch you are pushing. By default, most repositories use main as the primary branch.
+What happens when you run it?
+
+All commits you made locally on the main branch are sent to the main branch on the remote repository (origin).
+If the remote branch doesn’t exist, it will be created.
+Other collaborators can now see your changes on GitHub.
+Typical usage:
+
+This is commonly used after you have committed your changes locally and want to update the remote repository 
+with your latest work.
+
+
+!!!!!!!!!!!!!!!!---------------------------------------------------------------------------------------------------!!!!!!!!!!!!
+## Note:
+If you have not set an upstream branch before, you might want to use:
+
+The -u flag sets the upstream branch, so future git push and git pull commands will default to origin main.
+!!!!!!!!!!!!!!!!---------------------------------------------------------------------------------------------------!!!!!!!!!!!!
+
+#   git push -u origin main
+Pushes your commits to the 'main' branch on GitHub and sets 'origin/main' as the default 
+upstream branch for future pushes and pulls.
+AFTER IT.......YOU CAN USE ..... #GIT Pushes
+
+#  git push :-
+By this your code id saved & commited in both branch and in repo....
+
+
+
+                               ##    FOR PULL THE REPO IN GIT HUB    ##
+I will tell you about it...and How to do it??..Let's know that....
+
+#   git clone <url>
+
+If you run git clone with the repository URL, it will copy all the files and history from github to your computer.
+Replace <url> with your actual repository link.
+
+#   git pull
+
+If you already have the repository on your computer and want to get the latest changes from github, use git pull.
+It will update your local files with any new changes from the remote repository.
+
+That's how you pull a repo from github!
