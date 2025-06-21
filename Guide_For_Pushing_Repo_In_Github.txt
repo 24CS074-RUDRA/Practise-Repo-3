@@ -75,9 +75,15 @@ By this your code id saved & commited in both branch and in repo....
 
                             $$$$$$$           # CHANGE -- 1 #          $$$$$$$ 
 --> I set ......
+    COMMAND:-  git push -u origine main
 (THIS IS SET THE UPSTREAM REMOTE ORIGINE SO BY THIS CHANGE AFTER THIS WHENEVER WE WANT TO PUSH THE repositories 
 SO WE CAN WRITE DIRECTLY -----> #git push)
-    COMMAND:-  git push -u origine main
+
+                            $$$$$$$           # CHANGE -- 2 #          $$$$$$$ 
+--> I set ......
+     COMMAND:-  git push 
+(NOW WE CAN DIRECTLY PUSH THE REPO IN BOTH IN BRANCH AND IN GITHUB )
+
 
 
                                ##    FOR PULL THE REPO IN GIT HUB    ##
