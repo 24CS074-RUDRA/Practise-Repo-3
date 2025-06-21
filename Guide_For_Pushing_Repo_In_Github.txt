@@ -73,6 +73,11 @@ AFTER IT.......YOU CAN USE ..... #GIT Pushes
 #  git push :-
 By this your code id saved & commited in both branch and in repo....
 
+                            $$$$$$$           # CHANGE -- 1 #          $$$$$$$ 
+--> I set ......
+(THIS IS SET THE UPSTREAM REMOTE ORIGINE SO BY THIS CHANGE AFTER THIS WHENEVER WE WANT TO PUSH THE repositories 
+SO WE CAN WRITE DIRECTLY -----> #git push)
+    COMMAND:-  git push -u origine main
 
 
                                ##    FOR PULL THE REPO IN GIT HUB    ##
