@@ -6,3 +6,9 @@ Dialguage:
 Rudra:hey how are you???
 Anuj:I am fine..what's about you??
 Rudra:I am also fine..
+
+other Dialguage:
+
+Anuj:Glad to hear that! What are you doing these days?
+Rudra:Just working on some new projects. How about you?
+Anuj:Same here, keeping busy with work.
